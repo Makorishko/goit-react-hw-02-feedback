@@ -41,7 +41,6 @@ export class App extends Component {
       <div>
         <Title />
         <Button onLeaveFeedback={this.leaveFeedback} />
-
         <Statistics
           percentage={this.countPositiveFeedbackPercentage()}
           total={this.countTotalFeedback()}

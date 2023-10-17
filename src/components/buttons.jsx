@@ -1,9 +1,11 @@
+import { Buttons } from './buttons-styled';
+
 export const Button = ({ onLeaveFeedback }) => {
   return (
     <div>
-      <button onClick={evt => onLeaveFeedback('good')}>Good</button>
-      <button onClick={evt => onLeaveFeedback('neutral')}>Neutral</button>
-      <button onClick={evt => onLeaveFeedback('bad')}>Bad</button>
+      <Buttons onClick={evt => onLeaveFeedback('good')}>Good</Buttons>
+      <Buttons onClick={evt => onLeaveFeedback('neutral')}>Neutral</Buttons>
+      <Buttons onClick={evt => onLeaveFeedback('bad')}>Bad</Buttons>
     </div>
   );
 };
