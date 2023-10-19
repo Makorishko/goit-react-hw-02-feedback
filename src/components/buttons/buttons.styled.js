@@ -6,4 +6,5 @@ export const Buttons = styled.button`
   border: 1px solid lightgrey;
   border-radius: 5px;
   font-weight: 600;
+  text-transform: capitalize;
 `;
